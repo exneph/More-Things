@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<SoundDef>
+		<defName>EXN_Kelbi_Call</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>  
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Kelbi/Call</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15.42672</min>
+					<max>14.7734</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9770588</min>
+					<max>1.137647</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>50.40025</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>EXN_Kelbi_Angry</defName>  
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Kelbi/Angry</clipFolderPath>
+					</li>
+				</grains>     
+				<volumeRange>20~20</volumeRange>      
+				<pitchRange>0.9311765~1.091765</pitchRange>      
+				<distRange>0~70</distRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>EXN_Kelbi_Death</defName>  
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>  
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Kelbi/Death</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>28.04878~28.04878</volumeRange>      
+				<pitchRange>1.504706~1.596471</pitchRange>      
+				<distRange>0~70</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>EXN_Kelbi_Wounded</defName>  
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>  
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Kelbi/Hit</clipFolderPath>
+					</li>
+				</grains>     
+				<volumeRange>19.5122~19.5122</volumeRange>      
+				<pitchRange>1.206471~1</pitchRange>      
+				<distRange>0~70</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+  
+</Defs>

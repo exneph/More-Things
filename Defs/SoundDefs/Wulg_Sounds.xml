@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<SoundDef>
+		<defName>EXN_Wulg_Call</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>	
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Wulg/Wulg_Call_1</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Wulg/Wulg_Call_2</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Wulg/Wulg_Call_3</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Wulg/Wulg_Call_4</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15.42672</min>
+					<max>14.7734</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9770588</min>
+					<max>1.137647</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>50.40025</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>EXN_Wulg_Angry</defName>  
+		<context>MapOnly</context>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Wulg/Wulg_Angry_1</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Wulg/Wulg_Angry_2</clipPath>
+					</li>
+				</grains>     
+				<volumeRange>20~20</volumeRange>      
+				<pitchRange>0.9311765~1.091765</pitchRange>      
+				<distRange>0~70</distRange>      
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>EXN_Wulg_Death</defName>  
+		<context>MapOnly</context>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Wulg/Wulg_Death_1</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Wulg/Wulg_Death_2</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Wulg/Wulg_Death_3</clipPath>
+					</li>
+				</grains>      
+				<volumeRange>28.04878~28.04878</volumeRange>      
+				<pitchRange>1.504706~1.596471</pitchRange>      
+				<distRange>0~70</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>EXN_Wulg_Wounded</defName>  
+		<context>MapOnly</context>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Wulg/Wulg_Hit_1</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Wulg/Wulg_Hit_2</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Wulg/Wulg_Hit_3</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Wulg/Wulg_Hit_4</clipPath>
+					</li>
+				</grains>     
+				<volumeRange>19.5122~19.5122</volumeRange>      
+				<pitchRange>1.206471~1</pitchRange>      
+				<distRange>0~70</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+  
+</Defs>

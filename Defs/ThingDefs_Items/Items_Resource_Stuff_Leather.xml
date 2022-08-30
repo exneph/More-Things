@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>EXN_Leather_Wulg</defName>
+		<label>wulg thickfur</label>
+		<description>Fur pelt carved from a Wulg. It insulates very well against the cold.</description>
+		<graphicData>
+			<color>(247,247,247)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>3.0</MarketValue>
+			<StuffPower_Armor_Sharp>1.02</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>35</StuffPower_Insulation_Cold>
+		</statBases>
+		<stuffProps>
+			<color>(247,247,247)</color>
+			<commonality>0.075</commonality>
+			<statFactors>
+				<Beauty>1.7</Beauty>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>EXN_Leather_Kelbi</defName>
+		<label>prized pelt</label>
+		<description>Prized pelt harvested from a Kelbi. Warm and durable.</description>
+		<graphicData>
+			<color>(251,198,131)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.9</MarketValue>
+			<StuffPower_Armor_Sharp>0.65</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.20</StuffPower_Armor_Blunt>
+			<StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(251,198,131)</color>
+			<commonality>0.25</commonality>
+			<statFactors>
+				<Beauty>1.7</Beauty>
+				<MaxHitPoints>1.0</MaxHitPoints>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+ 
+</Defs>

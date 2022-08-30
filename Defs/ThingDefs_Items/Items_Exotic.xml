@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>EXN_KelbiHorn</defName>
+		<label>kelbi horn</label>
+		<description>A kelbi's horn. It's often sought after for medicinal uses and  priceless in most markets.</description>
+		<graphicData>
+			<texPath>Things/Item/Special/ThrumboHorn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>800</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.4</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+		</statBases>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>10</stackLimit>
+		<tools>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Scratch</li>
+					<li>Stab</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+			<li>
+				<label>base</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>AnimalPart</li>
+		</thingSetMakerTags>
+	</ThingDef>
+  
+</Defs>
